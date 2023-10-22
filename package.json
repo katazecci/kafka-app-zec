@@ -1,0 +1,26 @@
+{
+  "name": "kafka-app-zec",
+  "version": "1.0.0",
+  "description": "Docker Engine and Docker Compose needed",
+  "main": "index.js",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "uuid": "^9.0.0"
+    },
+  "scripts": {
+    "start:deleteTopics": "node ./admin/deleteTopics.js",
+    "start:createTopics": "node ./admin/createTopics.js",
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katazecci/kafka-app-zec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katazecci/kafka-app-zec/issues"
+  },
+  "homepage": "https://github.com/katazecci/kafka-app-zec#readme"
+}
