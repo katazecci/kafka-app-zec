@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "kafka-app-zec",
   "version": "1.0.0",
   "description": "Docker Engine and Docker Compose needed",
