@@ -5,8 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "kafkajs": "^2.2.4",
-    "uuid": "^9.0.0"
-    },
+    "uuid": "^9.0.1"
+  },
   "scripts": {
     "start:deleteTopics": "node ./admin/deleteTopics.js",
     "start:createTopics": "node ./admin/createTopics.js",
